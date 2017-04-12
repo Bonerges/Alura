@@ -19,7 +19,7 @@ public class Database {
 			ds.setDriverClass("com.mysql.jdbc.Driver");
 			ds.setUser("root");
 			ds.setPassword("123456789");
-			ds.setJdbcUrl("jdbc:mysql://localhost:3306/Trabalho?useSSL=false");
+			ds.setJdbcUrl("jdbc:mysql://localhost:3306/loja-virtual?useSSL=false");
 			ds.setUnreturnedConnectionTimeout(60);
 			ds.setDebugUnreturnedConnectionStackTraces(true);
 			ds.setMaxPoolSize(20);
